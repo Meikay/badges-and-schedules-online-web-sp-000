@@ -20,9 +20,8 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees).each do |badge|
-    puts badge
-    binding.pry
   end
+  puts badge
 end
 
 # so, it's expecting you to loop through them. I think you can do that with the batch_badge_creator method.
